@@ -57,3 +57,34 @@
   color: #a0522d;
   font-size: 1.1rem;
 }
+
+@media (max-width: 768px) {
+  .menu-section {
+    padding: 2rem 1rem;              
+  }
+
+  .menu-section h2 {
+    font-size: 2rem;                 
+    margin-bottom: 2rem;
+  }
+
+  .menu-item {
+    padding: 1rem;                    
+  }
+
+  .menu-item img {
+    height: 160px;                    
+  }
+
+  .menu-item h3 {
+    font-size: 1.2rem;               
+  }
+
+  .menu-item p {
+    font-size: 0.9rem;                
+  }
+
+  .menu-item span {
+    font-size: 1rem;                  
+  }
+}

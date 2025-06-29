@@ -59,3 +59,29 @@ form button:hover {
 .hidden {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .contact-section {
+    margin: 2rem 1rem;           
+    padding: 1.5rem 1rem;        
+  }
+
+  .contact-section h2 {
+    font-size: 1.6rem;           
+  }
+
+  .contact-section p {
+    font-size: 0.95rem;          
+  }
+
+  form input,
+  form textarea {
+    font-size: 0.95rem;          
+    padding: 0.7rem;             
+  }
+
+  form button {
+    font-size: 0.95rem;         
+    padding: 0.7rem 1rem;        
+  }
+}

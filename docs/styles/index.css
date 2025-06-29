@@ -57,3 +57,52 @@ body {
 .hero-image img{
     border-radius:3px ;
 }
+/* Navbar responsiveness: stack links under logo on small screens */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-bar .links {
+    margin-top: 1rem;
+  }
+}
+
+/* Hero responsiveness: stack content vertically on small screens */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-top: 1rem;
+  }
+}
